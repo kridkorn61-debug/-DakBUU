@@ -1,0 +1,5 @@
+{
+  "name": "ข้าวแกงDakBuu - Modern Thai Curry Rice",
+  "description": "Minimal modern Thai curry rice restaurant for the new generation. Fast, comfortable, and air-conditioned.",
+  "requestFramePermissions": ["geolocation"]
+}
