@@ -4,28 +4,29 @@
 @theme {
   --font-sans: "Prompt", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Kanit", sans-serif;
-  --color-brand-gold: #C6A75E;
-  --color-brand-dark: #333333;
+  --color-brand-gold: #EAB308;
+  --color-brand-dark: #1A1A1A;
+  --color-brand-charcoal: #0F0F0F;
 }
 
 @layer base {
   body {
-    @apply bg-[#F9F9F9] text-brand-dark antialiased;
+    @apply bg-brand-charcoal text-white antialiased;
   }
 }
 
 .glass-nav {
-  @apply bg-white/80 backdrop-blur-md border-b border-black/5;
+  @apply bg-brand-charcoal/80 backdrop-blur-md border-b border-white/5;
 }
 
 .btn-gold {
-  @apply bg-brand-gold text-white px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 active:scale-95 shadow-md hover:shadow-lg;
+  @apply bg-brand-gold text-brand-dark px-6 py-3 rounded-full font-bold transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(234,179,8,0.3)];
 }
 
 .btn-outline {
-  @apply border-2 border-brand-gold text-brand-gold px-6 py-3 rounded-full font-medium transition-all hover:bg-brand-gold hover:text-white active:scale-95;
+  @apply border-2 border-brand-gold text-brand-gold px-6 py-3 rounded-full font-bold transition-all hover:bg-brand-gold hover:text-brand-dark active:scale-95;
 }
 
 .card-shadow {
-  @apply shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] transition-shadow duration-300;
+  @apply bg-brand-dark/40 border border-white/5 shadow-2xl hover:border-brand-gold/30 transition-all duration-300;
 }

@@ -33,83 +33,148 @@ interface MenuItem {
 
 // --- Constants ---
 const MENU_ITEMS: MenuItem[] = [
+  // ข้าวแกง
   {
     id: 1,
-    name: 'แกงเขียวหวานไก่',
-    description: 'แกงเขียวหวานรสชาติเข้มข้น ไก่นุ่ม กะทิสดใหม่',
-    price: 65,
+    name: 'ข้าวแกงเขียวหวานไก่',
+    description: 'แกงเขียวหวานไก่รสชาติเข้มข้น เสิร์ฟพร้อมข้าวสวยร้อนๆ',
+    price: 55,
     category: 'curry',
-    image: 'https://picsum.photos/seed/curry1/600/400',
-    tags: ['แนะนำ', 'ขายดี']
-  },
-  {
-    id: 2,
-    name: 'พะแนงหมู',
-    description: 'พะแนงหมูรสกลมกล่อม หอมเครื่องแกง ถั่วลิสงคั่วเอง',
-    price: 70,
-    category: 'curry',
-    image: 'https://picsum.photos/seed/curry2/600/400',
+    image: 'https://static.thairath.co.th/media/dFQROr7oWzulq5Fa6rjAoVzo6w5As8O2Ufy8ntnjD6u2AbjENB83cuVgGXC9UNuVu7z.jpg',
     tags: ['แนะนำ']
   },
   {
-    id: 3,
-    name: 'มัสมั่นไก่',
-    description: 'มัสมั่นไก่เนื้อนุ่ม มันฝรั่งชิ้นโต รสชาติหวานนำเค็มตาม',
-    price: 75,
+    id: 2,
+    name: 'ข้าวแกงพะแนงหมู',
+    description: 'พะแนงหมูรสกลมกล่อม หอมเครื่องแกง เสิร์ฟพร้อมข้าวสวย',
+    price: 60,
     category: 'curry',
-    image: 'https://picsum.photos/seed/curry3/600/400',
+    image: 'https://www.lemon8-app.com/seo/image?item_id=7407071999333630480&index=0&sign=418ec2019324f680ab7a1124007de147'
+  },
+  {
+    id: 3,
+    name: 'ข้าวกะเพราไก่',
+    description: 'กะเพราไก่รสจัดจ้าน ผัดสดใหม่ทุกจาน',
+    price: 55,
+    category: 'curry',
+    image: 'https://images.aws.nestle.recipes/original/d07e6b16c5cec0c55ce05de7dc2c1c04_artboard_2.jpg',
     tags: ['ขายดี']
   },
   {
     id: 4,
-    name: 'ไข่พะโล้',
-    description: 'ไข่พะโล้สูตรโบราณ เคี่ยวจนเข้าเนื้อ หมูสามชั้นนุ่มละลาย',
-    price: 55,
-    category: 'side',
-    image: 'https://picsum.photos/seed/side1/600/400',
-    tags: ['ยอดนิยม']
+    name: 'ข้าวหมูทอด',
+    description: 'หมูทอดสูตรเด็ด กรอบนอกนุ่มใน ทานคู่กับข้าวสวย',
+    price: 50,
+    category: 'curry',
+    image: 'https://mpics.mgronline.com/pics/Images/567000010834703.JPEG',
+    tags: ['แนะนำ']
   },
   {
     id: 5,
-    name: 'ผัดกะเพราหมูสับ',
-    description: 'กะเพราแท้ ไม่ใส่ถั่วฝักยาว เผ็ดร้อนถึงใจ',
-    price: 60,
-    category: 'side',
-    image: 'https://picsum.photos/seed/side2/600/400',
-    tags: ['เผ็ด']
+    name: 'ข้าวไก่ทอด',
+    description: 'ไก่ทอดกรอบๆ เสิร์ฟพร้อมข้าวสวยร้อนๆ',
+    price: 50,
+    category: 'curry',
+    image: 'https://img.wongnai.com/p/400x0/2020/05/26/90c731eed3dd4cfdad008eef21a22cfe.jpg'
   },
   {
     id: 6,
-    name: 'ชาไทยนมสด',
-    description: 'ชาไทยหอมกรุ่น ผสมนมสดแท้ รสชาติเข้มข้น',
-    price: 45,
-    category: 'drink',
-    image: 'https://picsum.photos/seed/drink1/600/400',
-    tags: ['ขายดี']
+    name: 'ข้าวไข่พะโล้',
+    description: 'ไข่พะโล้รสชาติกลมกล่อม ราดข้าวสวยร้อนๆ',
+    price: 55,
+    category: 'curry',
+    image: 'https://img.wongnai.com/p/1920x0/2017/05/10/fea38f881ce1457ab2b4a1d0156ec448.jpg'
   },
+  // กับข้าว
   {
     id: 7,
-    name: 'น้ำลำไยสด',
-    description: 'น้ำลำไยหวานเย็นชื่นใจ เนื้อลำไยเน้นๆ',
-    price: 40,
-    category: 'drink',
-    image: 'https://picsum.photos/seed/drink2/600/400'
+    name: 'เขียวหวานไก่ (กับ)',
+    description: 'แกงเขียวหวานไก่ถ้วยใหญ่ เครื่องแน่น รสชาติไทยแท้',
+    price: 70,
+    category: 'side',
+    image: 'https://static.thairath.co.th/media/dFQROr7oWzulq5Fa6rjAoVzo6w5As8O2Ufy8ntnjD6u2AbjENB83cuVgGXC9UNuVu7z.jpg',
   },
   {
     id: 8,
-    name: 'ลอดช่องสิงคโปร์',
-    description: 'ลอดช่องเส้นเหนียวนุ่ม ในน้ำกะทิหอมควันเทียน',
-    price: 35,
-    category: 'dessert',
-    image: 'https://picsum.photos/seed/dessert1/600/400'
+    name: 'พะแนงหมู (กับ)',
+    description: 'พะแนงหมูถ้วยใหญ่ รสชาติเข้มข้นถึงใจ',
+    price: 75,
+    category: 'side',
+    image: 'https://www.lemon8-app.com/seo/image?item_id=7407071999333630480&index=0&sign=418ec2019324f680ab7a1124007de147',
+    tags: ['ขายดี']
+  },
+  {
+    id: 9,
+    name: 'หมูทอด (กับ)',
+    description: 'หมูทอดจานใหญ่ แบ่งทานได้หลายคน',
+    price: 70,
+    category: 'side',
+    image: 'https://mpics.mgronline.com/pics/Images/567000010834703.JPEG'
+  },
+  {
+    id: 10,
+    name: 'ไก่ทอด (กับ)',
+    description: 'ไก่ทอดจานใหญ่ กรอบอร่อยทุกชิ้น',
+    price: 70,
+    category: 'side',
+    image: 'https://img.wongnai.com/p/400x0/2020/05/26/90c731eed3dd4cfdad008eef21a22cfe.jpg'
+  },
+  {
+    id: 11,
+    name: 'ไข่พะโล้ (กับ)',
+    description: 'ไข่พะโล้ถ้วยใหญ่ หมูสามชั้นนุ่มละลาย',
+    price: 60,
+    category: 'side',
+    image: 'https://img.wongnai.com/p/1920x0/2017/05/10/fea38f881ce1457ab2b4a1d0156ec448.jpg'
+  },
+  {
+    id: 12,
+    name: 'ต้มจืดเต้าหู้หมูสับ',
+    description: 'ต้มจืดร้อนๆ ซดคล่องคอ เต้าหู้นุ่มหมูสับแน่น',
+    price: 60,
+    category: 'side',
+    image: 'https://img.wongnai.com/p/1920x0/2019/12/17/0e56df4a81334fbf88b302ba28897d3b.jpg'
+  },
+  // เครื่องดื่ม
+  {
+    id: 13,
+    name: 'น้ำเก๊กฮวย',
+    description: 'น้ำเก๊กฮวยเย็นๆ หวานกำลังดี แก้กระหาย',
+    price: 20,
+    category: 'drink',
+    image: 'https://cms.kapook.com/uploads/tag/42/ID_40898_5a8662507138d.jpg'
+  },
+  {
+    id: 14,
+    name: 'ชาไทยเย็น',
+    description: 'ชาไทยหอมกรุ่น รสชาติเข้มข้นสไตล์ไทย',
+    price: 25,
+    category: 'drink',
+    image: 'https://aromathailand.com/wp-content/uploads/2024/02/shutterstock_1139687273.jpeg',
+    tags: ['แนะนำ']
+  },
+  {
+    id: 15,
+    name: 'น้ำเปล่า',
+    description: 'น้ำดื่มสะอาด เย็นชื่นใจ',
+    price: 10,
+    category: 'drink',
+    image: 'https://img.th.my-best.com/product_images/d68638208391099f2dc353bffc6ab717.jpeg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=7845671ef59dc1c5f371e538e82e78c3'
+  },
+  {
+    id: 16,
+    name: 'น้ำอัดลม',
+    description: 'น้ำอัดลมเย็นๆ เลือกได้หลากหลายรสชาติ',
+    price: 20,
+    category: 'drink',
+    image: 'https://www.consumerthai.org/images/stories/food/570211_coca.jpg'
   }
 ];
 
 const CATEGORIES = [
   { id: 'curry', label: 'ข้าวแกง' },
   { id: 'side', label: 'กับข้าว' },
-  { id: 'drink', label: 'เครื่องดื่ม' },
-  { id: 'dessert', label: 'ของหวาน' }
+  { id: 'drink', label: 'เครื่องดื่ม' }
 ];
 
 // --- Components ---
@@ -141,7 +206,7 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
         >
           <span className="text-2xl font-display font-bold tracking-tight">
             <span className="text-brand-gold">ข้าวแกง</span>
-            <span className="text-brand-dark">DakBuu</span>
+            <span className="text-white">DakBuu</span>
           </span>
         </div>
 
@@ -155,7 +220,7 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
                 const el = document.getElementById(link.id);
                 el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }}
-              className={`text-sm font-medium transition-colors hover:text-brand-gold ${activeSection === link.id ? 'text-brand-gold' : 'text-brand-dark/70'}`}
+              className={`text-sm font-medium transition-colors hover:text-brand-gold ${activeSection === link.id ? 'text-brand-gold' : 'text-white/70'}`}
             >
               {link.label}
             </button>
@@ -167,7 +232,7 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
         </div>
 
         {/* Mobile Toggle */}
-        <button className="md:hidden text-brand-dark" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <button className="md:hidden text-white" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           {isMobileMenuOpen ? <X size={28} /> : <MenuIcon size={28} />}
         </button>
       </div>
@@ -179,7 +244,7 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 right-0 bg-white border-b border-black/5 p-6 md:hidden flex flex-col space-y-4 shadow-xl"
+            className="absolute top-full left-0 right-0 bg-brand-charcoal border-b border-white/5 p-6 md:hidden flex flex-col space-y-4 shadow-xl"
           >
             {navLinks.map((link) => (
               <button
@@ -190,7 +255,7 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
                   const el = document.getElementById(link.id);
                   el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }}
-                className={`text-lg font-medium text-left ${activeSection === link.id ? 'text-brand-gold' : 'text-brand-dark'}`}
+                className={`text-lg font-medium text-left ${activeSection === link.id ? 'text-brand-gold' : 'text-white'}`}
               >
                 {link.label}
               </button>
@@ -208,15 +273,15 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
 
 const Hero = ({ onMenuClick, onOrderClick }: { onMenuClick: () => void, onOrderClick: () => void }) => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-charcoal">
       <div className="absolute inset-0 z-0">
         <img 
           src="https://picsum.photos/seed/thai-food/1920/1080?blur=2" 
           alt="Background" 
-          className="w-full h-full object-cover opacity-10"
+          className="w-full h-full object-cover opacity-5"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/50 to-[#F9F9F9]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-charcoal/50 to-brand-charcoal"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
@@ -230,7 +295,7 @@ const Hero = ({ onMenuClick, onOrderClick }: { onMenuClick: () => void, onOrderC
             ข้าวแกงเร็วทันใจ <br />
             <span className="text-brand-gold">สำหรับเด็กยุคใหม่</span>
           </h1>
-          <p className="text-xl text-brand-dark/70 mb-10 max-w-lg leading-relaxed">
+          <p className="text-xl text-white/70 mb-10 max-w-lg leading-relaxed">
             สแกนสั่ง • รับไว • โทรสั่งล่วงหน้า <br />
             อิ่มอร่อยในห้องแอร์เย็นสบาย พร้อมลุยคาบเรียนต่อไป
           </p>
@@ -249,7 +314,7 @@ const Hero = ({ onMenuClick, onOrderClick }: { onMenuClick: () => void, onOrderC
         >
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="https://picsum.photos/seed/curry-hero/800/800" 
+              src="https://internal-crimson-kmjtevtb9o.edgeone.app/unnamed.jpg" 
               alt="Thai Curry" 
               className="w-full aspect-square object-cover"
               referrerPolicy="no-referrer"
@@ -274,7 +339,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-brand-charcoal">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((f, i) => (
@@ -284,13 +349,13 @@ const Features = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="p-8 rounded-2xl bg-[#F9F9F9] border border-black/5 hover:border-brand-gold/30 transition-colors group"
+              className="p-8 rounded-2xl bg-brand-dark/50 border border-white/5 hover:border-brand-gold/30 transition-colors group"
             >
-              <div className="mb-6 p-4 bg-white rounded-xl w-fit shadow-sm group-hover:scale-110 transition-transform">
+              <div className="mb-6 p-4 bg-brand-charcoal rounded-xl w-fit shadow-sm group-hover:scale-110 transition-transform">
                 {f.icon}
               </div>
-              <h3 className="text-xl font-bold mb-3">{f.title}</h3>
-              <p className="text-brand-dark/60 leading-relaxed">{f.desc}</p>
+              <h3 className="text-xl font-bold mb-3 text-white">{f.title}</h3>
+              <p className="text-white/60 leading-relaxed">{f.desc}</p>
             </motion.div>
           ))}
         </div>
@@ -305,11 +370,11 @@ const MenuSection = () => {
   const filteredItems = MENU_ITEMS.filter(item => item.category === activeTab);
 
   return (
-    <section id="menu" className="py-24">
+    <section id="menu" className="py-24 bg-brand-dark">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">เมนูแนะนำ</h2>
-          <p className="text-brand-dark/60 max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-white">เมนูทั้งหมด</h2>
+          <p className="text-white/60 max-w-2xl mx-auto">
             คัดสรรวัตถุดิบคุณภาพ ปรุงสดใหม่ทุกวัน รสชาติไทยแท้ที่ถูกใจคนรุ่นใหม่
           </p>
         </div>
@@ -320,7 +385,7 @@ const MenuSection = () => {
             <button
               key={cat.id}
               onClick={() => setActiveTab(cat.id)}
-              className={`px-8 py-3 rounded-full font-medium transition-all ${activeTab === cat.id ? 'bg-brand-gold text-white shadow-lg' : 'bg-white text-brand-dark hover:bg-brand-gold/10'}`}
+              className={`px-8 py-3 rounded-full font-bold transition-all ${activeTab === cat.id ? 'bg-brand-gold text-brand-dark shadow-lg' : 'bg-brand-charcoal text-white/60 hover:text-white border border-white/5'}`}
             >
               {cat.label}
             </button>
@@ -357,13 +422,13 @@ const MenuSection = () => {
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold">{item.name}</h3>
+                    <h3 className="text-xl font-bold text-white">{item.name}</h3>
                     <span className="text-brand-gold font-bold text-lg">{item.price}.-</span>
                   </div>
-                  <p className="text-brand-dark/60 text-sm leading-relaxed mb-6">
+                  <p className="text-white/60 text-sm leading-relaxed mb-6">
                     {item.description}
                   </p>
-                  <button className="w-full py-3 rounded-xl border border-brand-gold/20 text-brand-gold font-medium hover:bg-brand-gold hover:text-white transition-colors flex items-center justify-center gap-2">
+                  <button className="w-full py-3 rounded-xl border border-white/10 text-white font-bold hover:bg-brand-gold hover:text-brand-dark transition-colors flex items-center justify-center gap-2">
                     สั่งเลย <ChevronRight size={16} />
                   </button>
                 </div>
@@ -439,7 +504,7 @@ const HowToOrder = () => {
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-white">
+    <section id="about" className="py-24 bg-brand-charcoal">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -448,24 +513,24 @@ const About = () => {
             viewport={{ once: true }}
             className="grid grid-cols-2 gap-4"
           >
-            <img src="https://picsum.photos/seed/restaurant1/400/600" alt="Vibe 1" className="rounded-3xl w-full h-80 object-cover mt-12" referrerPolicy="no-referrer" />
-            <img src="https://picsum.photos/seed/restaurant2/400/600" alt="Vibe 2" className="rounded-3xl w-full h-80 object-cover" referrerPolicy="no-referrer" />
+            <img src="https://dm-data.terabox.app/thumbnail/6a37c3deaa94448f418a4cd634f9f8e3?fid=4402151477423-250528-688796715937705&time=1771664400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-y5Wchnm2mxrA0nO5lj16zaHOL8U%3D&expires=10y&chkv=0&chkbd=0&chkpc=&dp-logid=46933656392719828&dp-callid=0&size=c850_u580&quality=100&vuk=4402151477423&ft=image" alt="DakBuu Storefront" className="rounded-3xl w-full h-80 object-cover mt-12" referrerPolicy="no-referrer" />
+            <img src="https://dm-data.terabox.app/thumbnail/880865150622b31727d8f56fe65fe885?fid=4402151477423-250528-304567818400573&time=1771664400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-LnSZIYFkPeZZEIk4yw1J%2F1p5uts%3D&expires=10y&chkv=0&chkbd=0&chkpc=&dp-logid=47093658327314396&dp-callid=0&size=c850_u580&quality=100&vuk=4402151477423&ft=image" alt="DakBuu Modern Interior" className="rounded-3xl w-full h-80 object-cover" referrerPolicy="no-referrer" />
           </motion.div>
 
           <div>
             <span className="text-brand-gold font-bold tracking-widest uppercase text-sm mb-4 block">Our Story</span>
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-8">ร้านข้าวแกงยุคใหม่ <br />เพื่อคนเวลาน้อย</h2>
-            <p className="text-brand-dark/70 text-lg leading-relaxed mb-8">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-8 text-white">ร้านข้าวแกงยุคใหม่ <br />เพื่อคนเวลาน้อย</h2>
+            <p className="text-white/70 text-lg leading-relaxed mb-8">
               ข้าวแกงDakBuu เกิดจากความเข้าใจในไลฟ์สไตล์ของนักเรียนและนักศึกษาที่ต้องเร่งรีบแข่งกับเวลา เราจึงสร้างพื้นที่ที่เสิร์ฟความอร่อยแบบไทยแท้ ในบรรยากาศที่ทันสมัยและสะดวกสบาย
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div>
                 <h4 className="text-3xl font-display font-bold text-brand-gold mb-2">100%</h4>
-                <p className="text-sm text-brand-dark/60 font-medium">วัตถุดิบสดใหม่ทุกวัน</p>
+                <p className="text-sm text-white/60 font-medium">วัตถุดิบสดใหม่ทุกวัน</p>
               </div>
               <div>
                 <h4 className="text-3xl font-display font-bold text-brand-gold mb-2">15 นาที</h4>
-                <p className="text-sm text-brand-dark/60 font-medium">เวลาเฉลี่ยในการรับอาหาร</p>
+                <p className="text-sm text-white/60 font-medium">เวลาเฉลี่ยในการรับอาหาร</p>
               </div>
             </div>
           </div>
@@ -477,19 +542,19 @@ const About = () => {
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="py-24 bg-brand-dark">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="bg-white rounded-[40px] overflow-hidden card-shadow grid md:grid-cols-2">
+        <div className="bg-brand-charcoal rounded-[40px] overflow-hidden card-shadow grid md:grid-cols-2">
           <div className="p-12 lg:p-20">
-            <h2 className="text-4xl font-display font-bold mb-10">ติดต่อเรา</h2>
+            <h2 className="text-4xl font-display font-bold mb-10 text-white">ติดต่อเรา</h2>
             <div className="space-y-8">
               <div className="flex gap-6">
                 <div className="p-4 bg-brand-gold/10 rounded-2xl text-brand-gold h-fit">
                   <Phone size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">เบอร์โทรศัพท์</h4>
-                  <p className="text-brand-dark/60">061-041-3231</p>
+                  <h4 className="font-bold mb-1 text-white">เบอร์โทรศัพท์</h4>
+                  <p className="text-white/60">061-041-3231</p>
                 </div>
               </div>
               <div className="flex gap-6">
@@ -497,8 +562,8 @@ const Contact = () => {
                   <Clock size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">เวลาทำการ</h4>
-                  <p className="text-brand-dark/60">ทุกวัน: 10:00 – 20:00 น.</p>
+                  <h4 className="font-bold mb-1 text-white">เวลาทำการ</h4>
+                  <p className="text-white/60">ทุกวัน: 10:00 – 20:00 น.</p>
                 </div>
               </div>
               <div className="flex gap-6">
@@ -506,17 +571,17 @@ const Contact = () => {
                   <MapPin size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">ที่ตั้งร้าน</h4>
-                  <p className="text-brand-dark/60">ย่านมหาวิทยาลัย (ใกล้ประตูทางออกหลัก)</p>
+                  <h4 className="font-bold mb-1 text-white">ที่ตั้งร้าน</h4>
+                  <p className="text-white/60">ย่านมหาวิทยาลัย (ใกล้ประตูทางออกหลัก)</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-12 flex gap-4">
-              <a href="#" className="p-4 bg-[#F9F9F9] rounded-full hover:bg-brand-gold hover:text-white transition-all">
+              <a href="#" className="p-4 bg-brand-dark rounded-full hover:bg-brand-gold hover:text-brand-dark transition-all border border-white/10">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="p-4 bg-[#F9F9F9] rounded-full hover:bg-brand-gold hover:text-white transition-all">
+              <a href="#" className="p-4 bg-brand-dark rounded-full hover:bg-brand-gold hover:text-brand-dark transition-all border border-white/10">
                 <Instagram size={20} />
               </a>
             </div>
@@ -581,6 +646,66 @@ const Footer = () => {
   );
 };
 
+const PopularDishes = ({ onMenuClick }: { onMenuClick: () => void }) => {
+  const popularItems = MENU_ITEMS.filter(item => item.tags?.includes('แนะนำ') || item.tags?.includes('ขายดี')).slice(0, 4);
+
+  return (
+    <section className="py-24 bg-brand-charcoal">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+          <div>
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-4 text-white">เมนูยอดฮิต</h2>
+            <p className="text-white/60 max-w-md">
+              เมนูยอดนิยมที่ใครมาก็ต้องสั่ง อร่อยเด็ด คุ้มค่า ทันใจ
+            </p>
+          </div>
+          <button onClick={onMenuClick} className="btn-outline flex items-center gap-2 group">
+            ดูเมนูทั้งหมด <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+          </button>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {popularItems.map((item) => (
+            <motion.div
+              key={item.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-brand-dark rounded-3xl overflow-hidden card-shadow group"
+            >
+              <div className="relative h-64 overflow-hidden">
+                <img 
+                  src={item.image} 
+                  alt={item.name} 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute top-4 left-4">
+                  {item.tags?.map((tag, idx) => (
+                    <span key={idx} className="bg-brand-gold text-brand-dark px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-white">{item.name}</h3>
+                <p className="text-white/60 text-sm mb-4 line-clamp-2">{item.description}</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-brand-gold font-bold text-xl">{item.price}.-</span>
+                  <button className="p-2 bg-brand-gold/10 text-brand-gold rounded-full hover:bg-brand-gold hover:text-brand-dark transition-colors">
+                    <ChevronRight size={20} />
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
 
@@ -620,6 +745,7 @@ export default function App() {
           onOrderClick={() => scrollTo('order')} 
         />
         <Features />
+        <PopularDishes onMenuClick={() => scrollTo('menu')} />
         <MenuSection />
         <HowToOrder />
         <About />
